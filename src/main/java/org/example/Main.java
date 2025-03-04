@@ -54,9 +54,15 @@ class Main {
         System.out.println("b : " + b);
 
         // 여기서 부터
-        int c = 10;
-        b = a;
-        a = c;
+//        int c = b;
+//        int d = a;
+//        a = c;
+//        b = d;
+            int c;
+            c = a;
+            a = b;
+            b = c;
+
         // 여기까지 수정 가능
 
         System.out.println("a : " + a);

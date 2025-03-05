@@ -7,115 +7,88 @@ package org.example;
 class Main {
     public static void main(String[] args) {
 
+// 문제 : 1부터 5까지 출력해주세요.
 
-//        int dan = 8;
-//
-//        int i = 0;
-//
-//        System.out.println(dan+" * "+i+" = "+dan*i);
-//        i++;
-//        System.out.println(dan+" * "+i+" = "+dan*i);
-//        i++;
-//        System.out.println(dan+" * "+i+" = "+dan*i);
-
-//          System.out.println("8 * 1 = "+8*1);
-//          System.out.println("8 * 2 = "+8*2);
-//          System.out.println("8 * 3 = "+8*3);
-//          System.out.println("8 * 4 = "+8*4);
-//          System.out.println("8 * 5 = "+8*5);
-//          System.out.println("8 * 6 = "+8*6);
-//          System.out.println("8 * 7 = "+8*7);
-//          System.out.println("8 * 8 = "+8*8);
-//          System.out.println("8 * 9 = "+8*9);
-                              
-
-
-
-//        int dan = 8;
-//
-//        System.out.println("8 * 1 = "+dan*1);
-//        System.out.println("8 * 2 = "+dan*2);
-//        System.out.println("8 * 3 = "+dan*3);
-//        System.out.println("8 * 4 = "+dan*4);
-//        System.out.println("8 * 5 = "+dan*5);
-//        System.out.println("8 * 6 = "+dan*6);
-//        System.out.println("8 * 7 = "+dan*7);
-//        System.out.println("8 * 8 = "+dan*8);
-//        System.out.println("8 * 9 = "+dan*9);
-
-
-//        int dan = 5;
-//
-//        System.out.println(dan+" * 1 = "+dan*1);
-//        System.out.println(dan+" * 2 = "+dan*2);
-//        System.out.println(dan+" * 3 = "+dan*3);
-//        System.out.println(dan+" * 4 = "+dan*4);
-//        System.out.println(dan+" * 5 = "+dan*5);
-//        System.out.println(dan+" * 6 = "+dan*6);
-//        System.out.println(dan+" * 7 = "+dan*7);
-//        System.out.println(dan+" * 8 = "+dan*8);
-//        System.out.println(dan+" * 9 = "+dan*9);
-
-
-        int dan = 9;
-
-        int i = 1;
-
-//        System.out.println(dan+" * "+i+" = "+dan*i);
-//        System.out.println(dan+" * "+(++i)+" = "+dan*i);
-//        System.out.println(dan+" * "+(++i)+" = "+dan*i);
-//        System.out.println(dan+" * "+(++i)+" = "+dan*i);
-//        System.out.println(dan+" * "+(++i)+" = "+dan*i);
-//        System.out.println(dan+" * "+(++i)+" = "+dan*i);
-//        System.out.println(dan+" * "+(++i)+" = "+dan*i);
-//        System.out.println(dan+" * "+(++i)+" = "+dan*i);
-//        System.out.println(dan+" * "+(++i)+" = "+dan*i);
-
-
-
-
-
-
-//        int dan = 8;
-//
 //        int i = 1;
 //
-////        System.out.println(dan + " * " + i + " = " + dan * i);
-////        i = i + 1; // i 의 값을 1 증가 시킨다.
-////        System.out.println(dan + " * " + i + " = " + dan * i);
-////        i += 1; // i 의 값을 1 증가 시킨다.(단축표현)
-////        System.out.println(dan + " * " + i + " = " + dan * i);
-////        i++; // i 의 값을 1 증가 시킨다.(단축표현)
-////        System.out.println(dan + " * " + i + " = " + dan * i);
-////        i++;
-////        System.out.println(dan + " * " + i + " = " + dan * i);
-////        i++;
-////        System.out.println(dan + " * " + i + " = " + dan * i);
-////        i++;
-////        System.out.println(dan + " * " + i + " = " + dan * i);
-////        i++;
-////        System.out.println(dan + " * " + i + " = " + dan * i);
-////        i++;
-////        System.out.println(dan + " * " + i + " = " + dan * i);
-////        i++;
-//
-//
-//        for (i=1;i<=1000;){
-//            System.out.println(dan + " * " + i + " = " + dan * i);
+//        while (i <= 5) {
+//            System.out.println(i);
 //            i++;
 //        }
 
-
-        System.out.println(dan + " * " + i + " = " + dan * i);
-        i++;
+/// /////
 
 
+// 문제 : -100부터 25까지 출력해주세요.
 
-        while (i<=10){
-            System.out.println(dan + " * " + i + " = " + dan * i);
-            i++;
-        }
+//        int i = -100;
+//
+//        while (i <= 25){
+//            System.out.println(i);
+//            i++;
+//        }
 
+////////
+
+// 문제 : 1부터 3까지 출력하는 작업을 10번 해주세요.
+// 조건 : 2중 while문 사용
+
+//        int i = 1;
+//        int j = 1;
+//        while (i <= 3){
+//            while (j<=3){
+//                System.out.println(j);
+//                j++;
+//            }
+//            System.out.println();
+//            i++;
+//            j = 1;   // j값을 초기화하지 않으면 4라는 값이 되므로 반복불가
+//        }
+
+/// ///////
+
+// -100부터 25까지의 합을 출력하세요.
+//        int i = -100;
+//        int j = 0;
+//
+//        while (i <= 25){
+//            j+=i;
+//            i++;
+//        }
+//        System.out.println(j);
+
+
+/// /////
+
+//         소수 부분이 .0 또는 .5인 경우만 입력으로 주어집니다.
+
+//    int[] arry1={2,3,4,5};
+//    int a=0;
+//    for (int i=0;i< arry1.length;i++){
+//        a += arry1[i];
+//    }
+//        System.out.println(a);
+//        System.out.println("++"+(double)a/arry1.length);
+//
+//        if ((double)a%0.5 == 0){
+//
+//            System.out.println((double)a/arry1.length);
+//        }
+
+
+
+        int angle=180;
+        int a =0;
+
+        if(angle<90){
+            a = 1;
+        }else if(angle==90){
+            a = 2;
+        }else if (angle<180){
+            a = 3;
+        }else {a= 4;}
+
+        System.out.println(a);
 
 
 

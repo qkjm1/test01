@@ -4,23 +4,25 @@ package org.example;
 
 // 문제 : 아래와 같이 출력해주세요.
 
+import java.util.Scanner;
+
 class Main {
     public static void main(String[] args) {
 
 //        1~3까지 출력하는 작업 10번
 // 조건 : 2중 while문 사용
 
-//        int i = 1;
-//        int j = 1;
-//        while (i <= 10){
-//            while (j<=3){
-//                System.out.println(j);
-//                j++;
-//            }
-//            System.out.println();
-//            i++;
-//            j = 1;   // j값을 초기화하지 않으면 4라는 값이 되므로 반복불가
-//        }
+        int i = 1;
+        int j = 1;
+        while (i <= 10){
+            while (j<=3){
+                System.out.println(j);
+                j++;
+            }
+            System.out.println();
+            i++;
+            j = 1;   // j값을 초기화하지 않으면 4라는 값이 되므로 반복불가
+        }
 
 //        for로 풀어보기
 
@@ -55,6 +57,53 @@ class Main {
 //            a += i;
 //        }
 //        System.out.println(a);
+
+
+//직사각형 별찍기
+//        Scanner scanner = new Scanner(System.in);
+//        int a = scanner.nextInt();
+//        int b = scanner.nextInt();
+//
+//        for (int j=0;j<b;j++) {
+//            for (int i=0; i < a; i++) {
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }

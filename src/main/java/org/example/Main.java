@@ -12,17 +12,17 @@ class Main {
 //        1~3까지 출력하는 작업 10번
 // 조건 : 2중 while문 사용
 
-        int i = 1;
-        int j = 1;
-        while (i <= 10){
-            while (j<=3){
-                System.out.println(j);
-                j++;
-            }
-            System.out.println();
-            i++;
-            j = 1;   // j값을 초기화하지 않으면 4라는 값이 되므로 반복불가
-        }
+//        int i = 1;
+//        while (i <= 10){
+//            System.out.println("i :"+i);
+//            int j = 1;
+//            while (j<=3){
+//                System.out.println(j);
+//                j++;
+//            }
+//            i++;
+//        }
+
 
 //        for로 풀어보기
 
@@ -32,7 +32,6 @@ class Main {
 //            for (int j=1;j<=3;j++){
 //                System.out.println(j);
 //            }
-//            int j =0;
 //            System.out.println();
 //        }
 

@@ -7,38 +7,27 @@ package org.example;
 class Main {
     public static void main(String[] args) {
 
-        // 출력
-    /*
-    8 * 1 = 8
-    8 * 2 = 16
-    8 * 3 = 24
-    8 * 4 = 32
-    8 * 5 = 40
-    8 * 6 = 48
-    8 * 7 = 56
-    8 * 8 = 64
-    8 * 9 = 72
-    */
 
-//        System.out.println("8"+"*"+"1"+"="+8*1);
-//        System.out.println("8"+"*"+"2"+"="+8*2);
-//        System.out.println("8"+"*"+"3"+"="+8*3);
-//        System.out.println("8"+"*"+"4"+"="+8*4);
-//        System.out.println("8"+"*"+"5"+"="+8*5);
-//        System.out.println("8"+"*"+"6"+"="+8*6);
-//        System.out.println("8"+"*"+"7"+"="+8*7);
-//        System.out.println("8"+"*"+"8"+"="+8*8);
-//        System.out.println("8"+"*"+"9"+"="+8*9);
+//        int dan = 8;
+//
+//        int i = 0;
+//
+//        System.out.println(dan+" * "+i+" = "+dan*i);
+//        i++;
+//        System.out.println(dan+" * "+i+" = "+dan*i);
+//        i++;
+//        System.out.println(dan+" * "+i+" = "+dan*i);
 
-//        System.out.println("8 * 1 = "+8*1);
-//        System.out.println("8 * 2 = "+8*2);
-//        System.out.println("8 * 3 = "+8*3);
-//        System.out.println("8 * 4 = "+8*4);
-//        System.out.println("8 * 5 = "+8*5);
-//        System.out.println("8 * 6 = "+8*6);
-//        System.out.println("8 * 7 = "+8*7);
-//        System.out.println("8 * 8 = "+8*8);
-//        System.out.println("8 * 9 = "+8*9);
+//          System.out.println("8 * 1 = "+8*1);
+//          System.out.println("8 * 2 = "+8*2);
+//          System.out.println("8 * 3 = "+8*3);
+//          System.out.println("8 * 4 = "+8*4);
+//          System.out.println("8 * 5 = "+8*5);
+//          System.out.println("8 * 6 = "+8*6);
+//          System.out.println("8 * 7 = "+8*7);
+//          System.out.println("8 * 8 = "+8*8);
+//          System.out.println("8 * 9 = "+8*9);
+                              
 
 
 
@@ -68,10 +57,10 @@ class Main {
 //        System.out.println(dan+" * 9 = "+dan*9);
 
 
-//        int dan = 9;
-//
-//        int i = 1;
-//
+        int dan = 9;
+
+        int i = 1;
+
 //        System.out.println(dan+" * "+i+" = "+dan*i);
 //        System.out.println(dan+" * "+(++i)+" = "+dan*i);
 //        System.out.println(dan+" * "+(++i)+" = "+dan*i);
@@ -81,6 +70,51 @@ class Main {
 //        System.out.println(dan+" * "+(++i)+" = "+dan*i);
 //        System.out.println(dan+" * "+(++i)+" = "+dan*i);
 //        System.out.println(dan+" * "+(++i)+" = "+dan*i);
+
+
+
+
+
+
+//        int dan = 8;
+//
+//        int i = 1;
+//
+////        System.out.println(dan + " * " + i + " = " + dan * i);
+////        i = i + 1; // i 의 값을 1 증가 시킨다.
+////        System.out.println(dan + " * " + i + " = " + dan * i);
+////        i += 1; // i 의 값을 1 증가 시킨다.(단축표현)
+////        System.out.println(dan + " * " + i + " = " + dan * i);
+////        i++; // i 의 값을 1 증가 시킨다.(단축표현)
+////        System.out.println(dan + " * " + i + " = " + dan * i);
+////        i++;
+////        System.out.println(dan + " * " + i + " = " + dan * i);
+////        i++;
+////        System.out.println(dan + " * " + i + " = " + dan * i);
+////        i++;
+////        System.out.println(dan + " * " + i + " = " + dan * i);
+////        i++;
+////        System.out.println(dan + " * " + i + " = " + dan * i);
+////        i++;
+////        System.out.println(dan + " * " + i + " = " + dan * i);
+////        i++;
+//
+//
+//        for (i=1;i<=1000;){
+//            System.out.println(dan + " * " + i + " = " + dan * i);
+//            i++;
+//        }
+
+
+        System.out.println(dan + " * " + i + " = " + dan * i);
+        i++;
+
+
+
+        while (i<=10){
+            System.out.println(dan + " * " + i + " = " + dan * i);
+            i++;
+        }
 
 
 

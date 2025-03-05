@@ -65,7 +65,7 @@ class Main {
 //
 //        for (int j=0;j<b;j++) {
 //            for (int i=0; i < a; i++) {
-//                System.out.print("*");
+//                System.out.print("*  ");
 //            }
 //            System.out.println();
 //        }
@@ -106,7 +106,6 @@ class Main {
 ////    두번째 반복문을 (2*i-1) 만큼 즉, 1만큼 > 별 1개 출력
 ////    i가 2일때 안쪽 첫번째 반복문을 (n-1)만큼 >> j=2 1칸 띄움
 ////    두번째 반복문을 3만큼 > 별 3개 출력
-
 
 
 

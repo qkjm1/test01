@@ -5,46 +5,41 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//        플레이어 a플레이어1;
-//        a플레이어1 = new 플레이어();
-//        a플레이어1.나이= 20;
-//        a플레이어1.이름= "홍길동";
-//        a플레이어1.직업= "의적;
+//        hu a = new hu();
+//        a.age=34;
+//        a.name="김철수";
+//        a.married= true;
+//        a.intro();
+//        System.out.println(a.age);
 //
+//        hu v = new hu();
+//        v.age=65;
+//        v.name="홍길동";
+//        v.married= false;
+//        v.intro();
+//        System.out.println(v.married);
+//    }
+//}
+//class hu {
+//    int age;
+//    String name;
+//    boolean married;
 //
-//
-//        플레이어 b플레이어2;
-//        b플레이어2 = new 플레이어();
-//        b플레이어2.나이= 30;
-//        b플레이어2.이름= "고길동"";
-//        b플레이어2.직업= "소드마스터";
+//    void intro(){
+////        int age = this.age;
+////        String name = this.name;
+////        boolean married = this.married;
+//        System.out.println("__자기소개__");
+//        System.out.printf("이름: %s\n",name);
+//        System.out.printf("나이: %d\n", age);
+//        System.out.printf("결혼: %b\n",married);
 
 
-        자동차 a;
-        자동차 b;
-        자동차 c;
 
-        자동차 a = new 자동차;
-        자동차 b = new 자동차;
-        자동차 c = new 자동차;
-
-        a.속력=80;
-        b.속력=100;
-        c.속력=60;
-
-        System.out.println(a.속력);
 
 
 
     }
-}
-//class 플레이어{
-//    int 나이;
-//    String 이름;
-//    String 직업;
-}
-class  자동차{
-    double 속력;
 }
 
 

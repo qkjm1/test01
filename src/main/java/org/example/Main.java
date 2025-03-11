@@ -11,12 +11,13 @@ public class Main {
 
 
     }
+
+
 }
+
 class abc {
     static void 인사(){
         System.out.println("안녕");
     }
 }
-
-
 

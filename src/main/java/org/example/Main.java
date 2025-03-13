@@ -6,64 +6,132 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-//        전사 a전사 = new 전사();
-//
-//        a전사.공격("브라이언", "칼");
-//        // 브라이언이(가) 칼(으)로 공격합니다.
-//
-//        a전사.재공격();
-//        // 브라이언이(가) 칼(으)로 공격합니다.
-//
-//        a전사.공격("필립", "창");
-//        // 필립이(가) 창(으)로 공격합니다.
-//
-//        a전사.공격("마크", "지팡이");
-//        // 마크(가) 지팡이(으)로 공격합니다.
-//
-//        a전사.재공격();
-//        // 마크(가) 지팡이(으)로 공격합니다.
-//
-//        a전사.재공격();
-//
-//    }
-//}
+        System.out.println("== 표준Tv 리모콘 들여오기 전 ==");
+        샤오미Tv a샤오미Tv = new 샤오미Tv();
+        삼성Tv a삼성Tv = new 삼성Tv();
+        LGTv aLGTv = new LGTv();
 
 
+        a샤오미Tv.켜기();
+        // 출력 => 샤오미Tv 켜집니다.
+        a샤오미Tv.끄기();
+        // 출력 => 샤오미Tv 꺼집니다.
+        a샤오미Tv.vr켜기();
+        // 출력 => 샤오미Tv vr켜기!
 
-//class 전사{
-//    String 이름;
-//    String 무기;
-//    void 공격 (String 이름, String 무기){
-//        this.이름=이름;
-//        this.무기=무기;
-//        System.out.printf("%s이(가) %s(으)로 공격합니다.\n",이름,무기);
-//    }
-//    void 재공격(){
-//        System.out.printf("%s이(가) %s(으)로 공격합니다.\n",this.이름,this.무기);
-//    }
-//}
+        a삼성Tv.켜기();
+        // 출력 => 삼성Tv 켜집니다.
+        a삼성Tv.끄기();
+        // 출력 => 삼성Tv 꺼집니다.
+        a삼성Tv.ar켜기();
+        // 출력 => 삼성Tv ar켜기!
 
+        aLGTv.켜기();
+        // 출력 => LGTv 켜집니다.
+        aLGTv.끄기();
+        // 출력 => LGTv 꺼집니다.
+        aLGTv.게임모드전환();
+        // 출력 => LGTv 게임모드전환!
 
+        System.out.println("== 표준Tv 리모콘 들여온 후 ==");
 
-         int count = 0;
-         int n = 24;
+        표준Tv a표준Tv;
+        a표준Tv=a샤오미Tv;
+        a표준Tv.켜기();
 
-         for(int i=1;i<=n;i++){
-             if(n%i==0){
-                 count++;
-             }
-         }
-        System.out.println(count);
-        int[] answer = new int[]{};
+        표준Tv abc[] = new 표준Tv[3];
+        abc[0]= aLGTv;
+        abc[1]= a삼성Tv;
+        abc[2]= a샤오미Tv;
 
-        int a=0;
-         for(int i=1;i<=n;i++){
-             if(n%i==0){
-                 answer[a]=i;
-                 System.out.println(answer[a]);
-             a++;
-             }
-         }
+        abc[2].끄기();
 
     }
 }
+class 표준Tv{
+
+    void 켜기(){}
+    void 끄기(){}
+}
+class 샤오미Tv extends 표준Tv{
+    void vr켜기(){
+        System.out.println(" vr켜기!");
+    }
+    void 끄기(){
+        System.out.println( "샤오미Tv 꺼집니다.");
+    }
+    void 켜기(){
+        System.out.println( "샤오미Tv 켜집니다.");
+    }
+}
+class 삼성Tv extends 표준Tv{
+    void ar켜기(){
+        System.out.println(" ar켜기!");
+    }
+    void 끄기(){
+        System.out.println("삼성Tv 꺼집니다." );
+    }void 켜기(){
+        System.out.println( "삼성Tv 켜집니다.");
+    }
+}
+class LGTv extends 표준Tv{
+    void 게임모드전환(){
+        System.out.println(" 게임모드전환!");
+    }  void 끄기(){
+        System.out.println( "LGTv 꺼집니다.");
+    }void 켜기(){
+        System.out.println("LGTv 켜집니다." );
+    }
+
+}
+//        무기 a무기 = new 칼();
+//
+//        //
+//        a무기.공격();
+//    }
+//}
+//
+//class 무기 {
+//
+//}
+//// 객체를만들기위해서 생성자를 필수로 요한다. 무기라는  class를 만들고
+//// 새로운 칼
+//
+//class 칼 extends 무기 {
+//    void 공격() { }
+//}
+//
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

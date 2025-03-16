@@ -53,28 +53,36 @@ public class Main {
 
         사람 a사람1 = a사람인력관리소.get사람(1);
         a사람1.자기소개();
-        //저는 1번, 홍길동, 20살 입니다.
+        //저는 1번, 홍길동, 20살 입니다
+        사람 a사람2 = a사람인력관리소.get사람(2);
+        a사람2.자기소개();
+        // 저는 2번, 홍길동, 20살 입니다.
+        사람 a사람3 = a사람인력관리소.get사람(3);
+        a사람3.자기소개();
+        // 저는 3번, 임꺽정, 30살 입니다.
     }
 
 }
 
 class 사람인력관리소{
-    사람 a사람;
+    사람 처음_a사람;
     int 저장된_번호;
 
     void add사람 (String name, int age){
         사람 a사람 = new 사람();
-        a사람.no=저장된_번호;
+        a사람.no=저장된_번호+1;
         a사람.age=age;
         a사람.name=name;
 
-
         System.out.println("나이가 "+a사람.age+"살인 "+a사람.no+"번째 "+a사람.name+"이 추가되었습니다");
 
+        처음_a사람 = a사람;
+        this.저장된_번호= a사람.no;
     }
-    사람 get사람 (int nu){
-        저장된_번호 = nu;
-        return a사람;
+   사람 get사람 (int nu){
+        this.저장된_번호 = nu;
+        System.out.println(저장된_번호);
+        return 처음_a사람;
     }
 
 }
@@ -84,6 +92,7 @@ class 사람 {
     String name;
 
     void 자기소개 (){
-        System.out.println("저는"+no+"번,"+name+", "+age+"살 입니다.");
+
+        System.out.println("저는"+no+"번, "+name+", "+age+"살 입니다.");
     }
 }

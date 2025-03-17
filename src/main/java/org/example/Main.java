@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.ArrayList;
-
 public class Main {
     public static void main(String[] args) {
 //          int value = 2;
@@ -120,13 +118,13 @@ class 사람인력관리소{//번호를 매기는 행위
     int 저장된_번호;//초기화 되지않는 번호 생성
 
     void add사람(String 이름, int 나이){
-    사람 a사람=new 사람(); //사람이라는 객체를 이용하기 위해서 객체선언(묶어서 선언)
-    a사람.이름=이름;
-    a사람.나이=나이;
-    a사람.번호=저장된_번호+1;
+        사람 a사람=new 사람(); //사람이라는 객체를 이용하기 위해서 객체선언(묶어서 선언)
+        a사람.이름=이름;
+        a사람.나이=나이;
+        a사람.번호=저장된_번호+1;
 
 
-    /// /if절을 이용해서 저장이가능
+        /// /if절을 이용해서 저장이가능
 //        번호에 따른 저장 (사람0, 사람1, 사람2)
 //        if(a사람.번호==1){
 //            사람0=a사람;
@@ -140,7 +138,7 @@ class 사람인력관리소{//번호를 매기는 행위
         System.out.println("나이가 "+a사람.나이+"살인 "+저장된_번호+"번쨰 "+a사람.이름+"이 추가되었습니다.");
     }
     사람 get사람(int 번호){
-    /// if문으로 return
+        /// if문으로 return
         if(번호==1){
             return 사람0;
         }else if(번호==2){
@@ -148,7 +146,7 @@ class 사람인력관리소{//번호를 매기는 행위
         }else if(번호==3){
             return 사람2;
         }
-    return null;
+        return null;
     }
 }
 class 사람 { //속성을 가지고 사람인력사무소에 적혀야함(자기소개행위)
